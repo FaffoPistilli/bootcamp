@@ -94,4 +94,9 @@ public class reloj1 {
     private int getSegundosTotales() {
         return horas * 3600 + minutos * 60 + segundos;
     }
+
+    //Esta es la funcion de Ian
+    public void funcion_ian() {
+        System.out.println("Esta es la funcion de Ian !!! :)");
+    }
 }

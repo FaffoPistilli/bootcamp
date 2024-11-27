@@ -13,5 +13,8 @@ public class RelojDemo {
         reloj1 otroReloj = new reloj1(7200);
         int diferencia = reloj.restaReloj(otroReloj);
         System.out.println("La diferencia en segundos es: " + diferencia);
+
+        //Esta es la funcion e Ian 
+        reloj.funcion_ian();
     }
 }
