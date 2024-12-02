@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Querys_pgAdmin4/Querys_pgAdmin4.iml" filepath="$PROJECT_DIR$/Querys_pgAdmin4/Querys_pgAdmin4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HTML_CSS.iml" filepath="$PROJECT_DIR$/../HTML_CSS.iml" />
     </modules>
   </component>
 </project>
