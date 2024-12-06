@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #1919e6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 15px 30px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav button:hover {
+    background-color: #5564ec;
+}
+
+header {
+    background-color: #5564ec;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 10px;
+}
+
+.CV-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.CV-container > section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.CV-container h2 {
+    font-size: 1.8rem;
+    color: black;
+    border-bottom: 4px solid #5564ec;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+#datos_personales {
+    grid-column: 1 / span 2;
+    background-color: white;
+    color: black;
+}
+
+
+#contacto img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contacto-lista li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#download-cv {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#download-cv:hover {
+    background-color: #0056b3;
+}
+
+#idiomas ul li {
+    font-weight: bold;
+}
+
+#habilidades-tecnicas ul li {
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .CV-container {
+        grid-template-columns: 1fr;
+    }
+
+    header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.2rem;
+    }
+
+    #download-cv {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+}
