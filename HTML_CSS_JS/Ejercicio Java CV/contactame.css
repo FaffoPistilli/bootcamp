@@ -27,12 +27,8 @@ body {
 nav {
     background-color: #1919e6;
     color: #fff;
-    padding: 15px 20px;
+    padding: 20px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
 }
 
 nav button {
@@ -40,10 +36,10 @@ nav button {
     border: none;
     color: #fff;
     cursor: pointer;
-    font-size: 16px;
-    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 15px 30px;
     transition: background-color 0.3s ease-in-out;
-    border-radius: 5px;
 }
 
 nav button:hover {
